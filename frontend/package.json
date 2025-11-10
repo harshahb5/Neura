@@ -5,7 +5,7 @@
   "private": true,
   "scripts": {
     "dev": "npx vite",
-    "build": "npx build",
+    "build": "npx vite build",
     "preview": "npx preview",
     "postinstall": "chmod +x ./node_modules/.bin/vite || exit 0"
   },
