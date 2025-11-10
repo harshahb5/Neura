@@ -1,21 +1,13 @@
-# --- Core Web Framework ---
 fastapi
 uvicorn[standard]
-
-# --- Database Layer ---
 sqlalchemy
+psycopg2-binary
 psycopg[binary,pool]
 alembic
-
-# --- Data & Utilities ---
 requests
 python-dotenv
 pydantic-settings
 multiprocess
 aiofiles
-
-# --- Async Tools ---
 asyncio
-
-# --- Logging (optional but recommended) ---
 colorlog
