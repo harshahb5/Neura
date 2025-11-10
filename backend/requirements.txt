@@ -1,7 +1,21 @@
-fastapi
-uvicorn
-sqlalchemy
-psycopg2-binary
-requests
-python-dotenv
-python-multipart     # 👈 add this line
+# --- Core Web Framework ---
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+
+# --- Database Layer ---
+sqlalchemy==2.0.31
+psycopg2-binary==2.9.9   # PostgreSQL driver for SQLAlchemy
+alembic==1.13.1          # Optional if you ever add migrations
+
+# --- Data & Utilities ---
+requests==2.31.0
+python-dotenv==1.0.1
+pydantic-settings==2.2.1
+multiprocess==0.70.16
+aiofiles==23.2.1
+
+# --- Async Tools ---
+asyncio==3.4.3
+
+# --- Optional for better logging (recommended) ---
+colorlog==6.8.2
