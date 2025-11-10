@@ -13,7 +13,7 @@ python-dotenv==1.0.1
 pydantic-settings==2.2.1
 multiprocess==0.70.16
 aiofiles==23.2.1
-
+psycopg[binary,pool]==3.2.1
 # --- Async Tools ---
 asyncio==3.4.3
 
