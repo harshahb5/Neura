@@ -11,3 +11,4 @@ multiprocess
 aiofiles
 asyncio
 colorlog
+python-multipart
